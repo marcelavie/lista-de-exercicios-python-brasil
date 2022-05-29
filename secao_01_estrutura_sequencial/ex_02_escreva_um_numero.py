@@ -9,8 +9,10 @@ Faça um Programa que peça um número e então mostre a mensagem O número info
     >>> ex_02_escreva_um_numero.escreva_um_numero()
     O número informado foi 42
 
+
 """
 
 def escreva_um_numero():
     """Escreva aqui em baixo a sua solução"""
-
+    numero = input('insira numero aqui: ')
+    print(f'O número informado foi {numero}')
