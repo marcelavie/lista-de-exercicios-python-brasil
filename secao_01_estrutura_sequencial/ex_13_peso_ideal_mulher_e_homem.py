@@ -22,3 +22,9 @@ Mostrar a área com 1 casa decimal.
 
 def calcular_peso_ideal():
     """Escreva aqui em baixo a sua solução"""
+    h = float(input('Escreva sua altura: '))
+    if mulher
+        peso1 = (62.1*h) - 44.7
+    elif homem
+        peso2 = (72.7*h) - 58
+        print(f'Seu peso ideal é {peso2} kg, se você for homem')
