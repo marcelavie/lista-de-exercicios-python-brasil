@@ -56,6 +56,6 @@ def calcular_latas_e_preco_de_tinta():
     valor_de_galoes = galoes_3*25
     total = valor_de_latas + valor_de_galoes
     resto = (latas_18*18)+(galoes_3*3.6)-litros_a_serem_usados
-    print(f'Para menor custo, você pode comprar {latas_18} lata(s) de 18 litros e {galoes_3} galão(ões) de 3.6 litros a um custo de R$ {total}. Vão sobrar {resto:.1f} litro(s) de tinta')
+    print(f'Para menor custo, você pode comprar {latas_18} lata(s) de 18 litros e {galoes_3} galão(ões) de 3.6 litros a um custo de R$ {total}. Vão sobrar {resto:.1f} litro(s) de tinta.')
 
 
