@@ -20,4 +20,3 @@ def converter_metros_para_centimetros():
     distancia=float(input('Escreva um numero: '))
     distancia *= 100
     print(f'Transformando para centímetros dá {distancia} cm')
-
