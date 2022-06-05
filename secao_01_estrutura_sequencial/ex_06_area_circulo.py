@@ -23,4 +23,8 @@ def calcular_area_de_circulo():
     """Escreva aqui em baixo a sua solução"""
     raio = float(input('Insira um número: '))
     resultado = 3.1415*(raio**2)
+<<<<<<< HEAD
     print(f'A área do círculo com esse raio é: {resultado:.4f}')
+=======
+    print(f'A área do círculo com esse raio é: {resultado:.4f}')
+>>>>>>> main

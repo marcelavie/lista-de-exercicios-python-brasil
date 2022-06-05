@@ -26,4 +26,8 @@ def calcular_peso_ideal():
     peso_mulher = (62.1*altura)-44.7
     peso_homem = (72.7*altura)-58
     print(f'Seu peso ideal é {peso_mulher:.1f} kg, se você for mulher')
+<<<<<<< HEAD
     print(f'Seu peso ideal é {peso_homem:.1f} kg, se você for homem')
+=======
+    print(f'Seu peso ideal é {peso_homem:.1f} kg, se você for homem')
+>>>>>>> main

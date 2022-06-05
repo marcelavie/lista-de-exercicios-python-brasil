@@ -30,5 +30,9 @@ def calcular_peso_excedente_e_multa():
     peso_excedente = peso - 50
     multa = peso_excedente*4
     print(f'O peso excedente de peixes é de {peso_excedente:.2f} kg')
+<<<<<<< HEAD
     print(f'Por isso, a multa é de R$ {multa:.2f}')
 
+=======
+    print(f'Por isso, a multa é de R$ {multa:.2f}')
+>>>>>>> main

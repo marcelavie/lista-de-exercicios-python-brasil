@@ -21,5 +21,9 @@ def calcular_peso_ideal():
     """Escreva aqui em baixo a sua solução"""
     altura = float(input('Escreva sua altura: '))
     peso = (72.7*altura)-58
+<<<<<<< HEAD
     print(f'Seu peso ideal é {peso:.1f} kg')
 
+=======
+    print(f'Seu peso ideal é {peso:.1f} kg')
+>>>>>>> main

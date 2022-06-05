@@ -25,5 +25,9 @@ def calcular_latas_e_preco_de_tinta():
     quantidade_tinta = area / 3
     quantidade_latas =int((quantidade_tinta//18)+1)
     custo = quantidade_latas*80
+<<<<<<< HEAD
     print(f'Você deve comprar {quantidade_latas:.0f} lata(s) tinta ao custo de R$ {custo:.2f}')
 
+=======
+    print(f'Você deve comprar {quantidade_latas:.0f} lata(s) tinta ao custo de R$ {custo:.2f}')
+>>>>>>> main
