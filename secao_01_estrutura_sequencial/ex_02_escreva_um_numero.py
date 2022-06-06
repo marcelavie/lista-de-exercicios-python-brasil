@@ -9,6 +9,7 @@ Faça um Programa que peça um número e então mostre a mensagem O número info
     >>> ex_02_escreva_um_numero.escreva_um_numero()
     O número informado foi 42
 
+
 """
 
 def escreva_um_numero():
