@@ -22,7 +22,3 @@ def calcular_media():
     soma=num_1+num_2+num_3+num_4
     media=soma/4
     print(f'A média anual é {media}')
-<<<<<<< HEAD
-
-=======
->>>>>>> main
