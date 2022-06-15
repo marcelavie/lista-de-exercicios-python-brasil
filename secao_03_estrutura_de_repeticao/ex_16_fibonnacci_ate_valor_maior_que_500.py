@@ -25,3 +25,5 @@ def calcular_serie_de_fibonacci_ate_valor_ser_maior_que_500() -> str:
             print("'0, ", end = '')
             print(*fibonacci, sep = ', ', end = '')
             print("'", end = '')
+
+
