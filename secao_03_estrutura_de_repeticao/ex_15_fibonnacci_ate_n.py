@@ -38,10 +38,10 @@ def calcular_serie_de_fibonacci(n: int) -> str:
         return resultado
     
 
-def test_1():
-    assert calcular_serie_de_fibonacci(1) == "'1'"
-    assert calcular_serie_de_fibonacci(2) == "'1, 1'"
-    assert calcular_serie_de_fibonacci(3) == "'1, 1, 2'"
+# def test_1():
+#     assert calcular_serie_de_fibonacci(1) == "'1'"
+#     assert calcular_serie_de_fibonacci(2) == "'1, 1'"
+#     assert calcular_serie_de_fibonacci(3) == "'1, 1, 2'"
 
 
    
