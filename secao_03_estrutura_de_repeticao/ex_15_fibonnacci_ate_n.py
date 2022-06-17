@@ -28,15 +28,27 @@ def calcular_serie_de_fibonacci(n: int) -> str:
     fibonacci = [1, 1]
     i = 0
     if n == 1:
-        return "'1'"
+        print("'1'")
     else:
         while i < (n-2):
             fibonacci.append(fibonacci[-2]+fibonacci[-1])
             i += 1
         resultado = "'" + ', '.join(map(str, fibonacci)) + "'"
         print(resultado)
-        return resultado
-    
+        
+    # n = 15
+    # fibonacci = [1, 1]
+    # cont = 0
+    # if n == 1:
+    #     print("'1'")
+    # else:
+    #     while cont < n - 2:
+    #         fibonacci += [fibonacci[cont] + fibonacci[cont + 1]]
+    #         cont += 1
+    #     else:
+    #         print("'0, ", end = '')
+    #         print(*fibonacci, sep = ', ', end = '')
+    #         print("'", end = '')
 
 # def test_1():
 #     assert calcular_serie_de_fibonacci(1) == "'1'"
